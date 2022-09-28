@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BelajarRelative</string>
+    <string-array name="arrkepada">
+        <item>Awan Itu Putih</item>
+        <item>Selaw</item>
+        <item>No </item>
+    </string-array>
+</resources>
