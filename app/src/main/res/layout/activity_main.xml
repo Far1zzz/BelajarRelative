@@ -9,7 +9,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android android:id="@+id/_hal"
+        android:id="@+id/_hal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hal : "/>
@@ -18,7 +18,7 @@
         android:id="@+id/tv_rahasia"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android android:text="Rahasia"
+        android:text="Rahasia"
         android:textStyle="italic"
         android:layout_toRightOf="@id/_hal"/>
 
@@ -52,10 +52,32 @@
         android:text="CLICK HERE"
         android:layout_centerInParent="true"/>
 
-    
+    <CheckBox
+        android:id="@+id/cb_yakin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yakin"
+        android:layout_below="@id/btn_clickHere"/>
+    <CheckBox
+        android:id="@+id/_yakinBanget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yakin Banget"
+        android:layout_below="@id/btn_clickHere"
+        android:layout_toRightOf="@id/cb_yakin"/>
+    <CheckBox
+        android:id="@+id/_gaYakin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ga Yakin"
+        android:layout_below="@id/btn_clickHere"
+        android:layout_toRightOf="@id/_yakinBanget"/>
 
+    <Button
+        android:id="@+id/_btnKeluar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Keluar"
+        android:layout_alignParentBottom="true"/>
 
-
-
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>
